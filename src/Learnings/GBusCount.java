@@ -4,8 +4,6 @@ import java.io.*;
 import java.util.*;
 
 public class GBusCount {
-
-
     private int checkCount(int cities[], int city) {
         int count = 0;
         for (int i = 0; i < cities.length; i = i+2) {
@@ -19,7 +17,6 @@ public class GBusCount {
     }
 
     public static void main(String[] args) throws IOException {
-//        Scanner scanner = new Scanner(new BufferedReader(new InputStreamReader(System.in)));
         Scanner scanner = new Scanner(new BufferedReader(new InputStreamReader(new FileInputStream("sample.txt"))));
         while (scanner.hasNextInt()) {
             int n = scanner.nextInt();

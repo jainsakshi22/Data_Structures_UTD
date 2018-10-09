@@ -9,11 +9,11 @@ import java.util.Scanner;
 import java.util.Stack;
 
 public class BinarySearchTree<T extends Comparable<? super T>> implements Iterable<T> {
-	static class Entry<T> {
-		T element;
-		Entry<T> left, right;
+	static class Entry<E> {
+		E element;
+		Entry<E> left, right;
 
-		public Entry(T x, Entry<T> left, Entry<T> right) {
+		public Entry(E x, Entry<E> left, Entry<E> right) {
 			this.element = x;
 			this.left = left;
 			this.right = right;
