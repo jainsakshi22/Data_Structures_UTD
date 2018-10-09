@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a06e8910-3616-422b-9fd6-6f0eea032faf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Data_Structures/Learnings/GBusCount.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Data_Structures/Learnings/GBusCount.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Data_Structures/sxj180002/Num.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Data_Structures/sxj180002/Num.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Learnings/GBusCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Learnings/GBusCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sxj180002/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sxj180002/BinarySearchTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sxj180002/Num.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Learnings/Leetcode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Learnings/Leetcode.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -64,12 +59,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="5945" />
+          <entry key="java" value="6537" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5945" />
+          <entry key="JAVA" value="6537" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -87,7 +82,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/skipList/SkipList.java">
+        <entry file="file://$PROJECT_DIR$/../longProject/src/skipList/SkipList.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1995">
               <caret line="157" column="17" selection-start-line="157" selection-start-column="17" selection-end-line="157" selection-end-column="17" />
@@ -101,10 +96,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Learnings/Leetcode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="562">
-              <caret line="103" column="29" selection-start-line="103" selection-start-column="29" selection-end-line="103" selection-end-column="29" />
+            <state relative-caret-position="300">
+              <caret line="247" column="136" selection-start-line="247" selection-start-column="136" selection-end-line="247" selection-end-column="136" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#4618#4627#0" expanded="true" />
+                <element signature="e#4874#4883#0" expanded="true" />
+                <element signature="e#6042#6060#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -146,7 +144,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/skipList/SkipListDriver.java">
+        <entry file="file://$PROJECT_DIR$/../longProject/src/skipList/SkipListDriver.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
               <caret line="28" selection-start-line="28" selection-end-line="28" />
@@ -158,7 +156,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/skipList/Timer.java">
+        <entry file="file://$PROJECT_DIR$/../longProject/src/skipList/Timer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
               <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
@@ -367,12 +365,6 @@
               <item name="Data_Structures" type="b2602c69:ProjectViewProjectNode" />
               <item name="Data_Structures" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="skipList" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Data_Structures" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Data_Structures" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="sxj180002" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -512,15 +504,16 @@
       <workItem from="1538544771802" duration="1142000" />
       <workItem from="1538592439376" duration="1561000" />
       <workItem from="1538772836054" duration="17399000" />
-      <workItem from="1539064290971" duration="278000" />
+      <workItem from="1539064290971" duration="2093000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59664000" />
+    <option name="totallyTimeSpent" value="61479000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23462088" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -530,7 +523,7 @@
       <window_info anchor="bottom" id="Messages" order="0" weight="0.32908162" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.18239796" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.22066326" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.22066326" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.26913264" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -685,7 +678,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/skipList/SkipList.java">
+    <entry file="file://$PROJECT_DIR$/../longProject/src/skipList/SkipList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1995">
           <caret line="157" column="17" selection-start-line="157" selection-start-column="17" selection-end-line="157" selection-end-column="17" />
@@ -724,7 +717,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/skipList/SkipListDriver.java">
+    <entry file="file://$PROJECT_DIR$/../longProject/src/skipList/SkipListDriver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="28" selection-start-line="28" selection-end-line="28" />
@@ -734,7 +727,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/skipList/Timer.java">
+    <entry file="file://$PROJECT_DIR$/../longProject/src/skipList/Timer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
@@ -743,10 +736,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Learnings/Leetcode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="562">
-          <caret line="103" column="29" selection-start-line="103" selection-start-column="29" selection-end-line="103" selection-end-column="29" />
+        <state relative-caret-position="300">
+          <caret line="247" column="136" selection-start-line="247" selection-start-column="136" selection-end-line="247" selection-end-column="136" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#4618#4627#0" expanded="true" />
+            <element signature="e#4874#4883#0" expanded="true" />
+            <element signature="e#6042#6060#0" expanded="true" />
           </folding>
         </state>
       </provider>
