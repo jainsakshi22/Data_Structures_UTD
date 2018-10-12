@@ -2,7 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a06e8910-3616-422b-9fd6-6f0eea032faf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Learnings/Leetcode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Learnings/Leetcode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/learnings/tree/BinaryTreeSumPreSucc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/learnings/tree/InorderSuccessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/learnings/tree/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Data_Structures/Learnings/GBusCount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Data_Structures/Learnings/sample.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/learnings/sample.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Data_Structures/sxj180002/BinaryHeap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Data_Structures/sxj180002/BoundedQueue$BinaryHeap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Data_Structures/sxj180002/BoundedQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Data_Structures/sxj180002/DoublyLinkedList$DLLIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Data_Structures/sxj180002/DoublyLinkedList$Entry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Data_Structures/sxj180002/DoublyLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Data_Structures/sxj180002/DoublyLinkedListIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Data_Structures/sxj180002/SinglyLinkedList$Entry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Data_Structures/sxj180002/SinglyLinkedList$SLLIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Data_Structures/sxj180002/SinglyLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Data_Structures/sxj180002/readme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Learnings/GBusCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/learnings/GBusCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Learnings/Leetcode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/learnings/Leetcode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Learnings/sample.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sxj180002/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sxj180002/BinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sxj180002/BoundedQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sxj180002/BoundedQueue.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,36 +66,37 @@
     <session id="-1115771093">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.closed" value="12" />
+          <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="3" />
           <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.13" value="2" />
           <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.opened" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="6537" />
+          <entry key="java" value="8879" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="6537" />
+          <entry key="JAVA" value="8879" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="41" />
+          <entry key="java" value="51" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="41" />
+          <entry key="JAVA" value="51" />
         </counts>
       </usages-collector>
     </session>
@@ -82,10 +104,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../longProject/src/skipList/SkipList.java">
+        <entry file="file://$PROJECT_DIR$/src/learnings/Leetcode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1995">
-              <caret line="157" column="17" selection-start-line="157" selection-start-column="17" selection-end-line="157" selection-end-column="17" />
+            <state relative-caret-position="360">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -93,40 +115,33 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Learnings/Leetcode.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/learnings/tree/BinaryTreeSumPreSucc.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="247" column="136" selection-start-line="247" selection-start-column="136" selection-end-line="247" selection-end-column="136" />
+            <state relative-caret-position="366">
+              <caret line="60" column="44" selection-start-line="54" selection-start-column="8" selection-end-line="60" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/learnings/tree/InorderSuccessor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="57" column="48" selection-start-line="50" selection-start-column="8" selection-end-line="57" selection-end-column="48" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#4618#4627#0" expanded="true" />
-                <element signature="e#4874#4883#0" expanded="true" />
-                <element signature="e#6042#6060#0" expanded="true" />
+                <element signature="e#245#246#0" expanded="true" />
+                <element signature="e#272#273#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sxj180002/BoundedQueue.java">
+        <entry file="file://$PROJECT_DIR$/src/learnings/tree/Node.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2880">
-              <caret line="201" column="40" selection-start-line="201" selection-start-column="33" selection-end-line="201" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sxj180002/BinarySearchTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1680">
-              <caret line="123" column="24" selection-start-line="123" selection-start-column="24" selection-end-line="123" selection-end-column="24" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="e#5332#5333#0" expanded="true" />
-                <element signature="e#5350#5351#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="75">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -134,8 +149,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sxj180002/BinaryHeap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="25" column="39" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="39" />
+            <state relative-caret-position="2355">
+              <caret line="163" column="36" selection-start-line="163" selection-start-column="36" selection-end-line="163" selection-end-column="36" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -143,23 +158,15 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../longProject/src/skipList/SkipListDriver.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/learnings/tree/BoundaryTraversal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="202">
+              <caret line="15" column="68" selection-start-line="15" selection-start-column="68" selection-end-line="15" selection-end-column="68" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#119#120#0" expanded="true" />
+                <element signature="e#146#147#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../longProject/src/skipList/Timer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -184,6 +191,9 @@
       <find>exc</find>
       <find>add</find>
     </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src/learnings/tree</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -198,10 +208,17 @@
         <option value="$PROJECT_DIR$/src/sxj180002/BinaryHeap.java" />
         <option value="$USER_HOME$/Desktop/sxj180002/BinaryHeap.java" />
         <option value="$PROJECT_DIR$/src/Learnings/GBusCount.java" />
-        <option value="$PROJECT_DIR$/src/sxj180002/BinarySearchTree.java" />
         <option value="$PROJECT_DIR$/src/skipList/SkipListDriver.java" />
         <option value="$PROJECT_DIR$/src/skipList/SkipList.java" />
         <option value="$PROJECT_DIR$/src/Learnings/Leetcode.java" />
+        <option value="$PROJECT_DIR$/src/Learnings/tree/BinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/sxj180002/BinarySearchTree.java" />
+        <option value="$PROJECT_DIR$/src/learnings/tree/BinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/learnings/tree/BinaryTreeSumPreSucc.java" />
+        <option value="$PROJECT_DIR$/src/sxj180002/BoundedQueue.java" />
+        <option value="$PROJECT_DIR$/src/learnings/tree/Node.java" />
+        <option value="$PROJECT_DIR$/src/learnings/tree/InorderSuccessor.java" />
+        <option value="$PROJECT_DIR$/src/learnings/tree/BoundaryTraversal.java" />
       </list>
     </option>
   </component>
@@ -336,12 +353,14 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -359,7 +378,22 @@
               <item name="Data_Structures" type="b2602c69:ProjectViewProjectNode" />
               <item name="Data_Structures" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Learnings" type="462c0819:PsiDirectoryNode" />
+              <item name="learnings" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Data_Structures" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Data_Structures" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="learnings" type="462c0819:PsiDirectoryNode" />
+              <item name="tree" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Data_Structures" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Data_Structures" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="learnings" type="462c0819:PsiDirectoryNode" />
+              <item name="tree" type="462c0819:PsiDirectoryNode" />
+              <item name="InorderSuccessor.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="Data_Structures" type="b2602c69:ProjectViewProjectNode" />
@@ -371,6 +405,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -404,16 +439,48 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Leetcode">
-    <configuration name="BinaryHeap (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BinaryHeap" />
+  <component name="RunManager" selected="Application.BoundaryTraversal">
+    <configuration name="BinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learnings.tree.BinaryTree" />
       <module name="Data_Structures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learnings.tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinaryHeap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sxj180002.BinaryHeap" />
+    <configuration name="BinaryTreeSumPreSucc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learnings.tree.BinaryTreeSumPreSucc" />
+      <module name="Data_Structures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learnings.tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BoundaryTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learnings.tree.BoundaryTraversal" />
+      <module name="Data_Structures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learnings.tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BoundedQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sxj180002.BoundedQueue" />
       <module name="Data_Structures" />
       <extension name="coverage">
         <pattern>
@@ -425,38 +492,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sxj180002.BinarySearchTree" />
+    <configuration name="InorderSuccessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learnings.tree.InorderSuccessor" />
       <module name="Data_Structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sxj180002.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Leetcode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Learnings.Leetcode" />
-      <module name="Data_Structures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Learnings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SkipListDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="skipList.SkipListDriver" />
-      <module name="Data_Structures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="skipList.*" />
+          <option name="PATTERN" value="learnings.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -465,19 +506,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BinaryHeap" />
-      <item itemvalue="Application.BinaryHeap (1)" />
-      <item itemvalue="Application.BinarySearchTree" />
-      <item itemvalue="Application.Leetcode" />
-      <item itemvalue="Application.SkipListDriver" />
+      <item itemvalue="Application.BinaryTree" />
+      <item itemvalue="Application.BinaryTreeSumPreSucc" />
+      <item itemvalue="Application.BoundedQueue" />
+      <item itemvalue="Application.InorderSuccessor" />
+      <item itemvalue="Application.BoundaryTraversal" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Leetcode" />
-        <item itemvalue="Application.SkipListDriver" />
-        <item itemvalue="Application.BinarySearchTree" />
-        <item itemvalue="Application.BinaryHeap" />
-        <item itemvalue="Application.BinaryHeap (1)" />
+        <item itemvalue="Application.BoundaryTraversal" />
+        <item itemvalue="Application.InorderSuccessor" />
+        <item itemvalue="Application.BoundedQueue" />
+        <item itemvalue="Application.BinaryTreeSumPreSucc" />
+        <item itemvalue="Application.BinaryTree" />
       </list>
     </recent_temporary>
   </component>
@@ -504,27 +545,29 @@
       <workItem from="1538544771802" duration="1142000" />
       <workItem from="1538592439376" duration="1561000" />
       <workItem from="1538772836054" duration="17399000" />
-      <workItem from="1539064290971" duration="2093000" />
+      <workItem from="1539064290971" duration="5089000" />
+      <workItem from="1539155826428" duration="3630000" />
+      <workItem from="1539233568937" duration="10752000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61479000" />
+    <option name="totallyTimeSpent" value="78857000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23462088" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19098713" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.32908162" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.17091836" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.18239796" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.22066326" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.26913264" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.2857143" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.3137755" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
@@ -540,32 +583,6 @@
       <window_info anchor="right" id="Palette&#9;" order="5" />
       <window_info anchor="right" id="Maven Projects" order="6" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20600858" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="UI Designer" order="3" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="0" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.32984293" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Palette&#9;" order="5" />
-      <window_info anchor="right" id="Maven Projects" order="6" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -629,16 +646,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Learnings/GBusCount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="24" column="5" selection-start-line="18" selection-start-column="4" selection-end-line="24" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="183">
@@ -646,13 +653,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sxj180002/Num.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-185">
-          <caret line="242" column="23" selection-start-line="242" selection-start-column="23" selection-end-line="242" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sxj180002/Num.java" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Scanner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
@@ -667,53 +668,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="1432" column="19" selection-start-line="1432" selection-start-column="19" selection-end-line="1432" selection-end-column="19" />
-          <folding>
-            <element signature="e#55800#55801#0" expanded="true" />
-            <element signature="e#55844#55845#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../longProject/src/skipList/SkipList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1995">
           <caret line="157" column="17" selection-start-line="157" selection-start-column="17" selection-end-line="157" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sxj180002/BoundedQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2880">
-          <caret line="201" column="40" selection-start-line="201" selection-start-column="33" selection-end-line="201" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sxj180002/BinarySearchTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1680">
-          <caret line="123" column="24" selection-start-line="123" selection-start-column="24" selection-end-line="123" selection-end-column="24" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#5332#5333#0" expanded="true" />
-            <element signature="e#5350#5351#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sxj180002/BinaryHeap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="25" column="39" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="39" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -721,9 +679,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="28" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -734,15 +689,105 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Learnings/Leetcode.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/Comparable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="247" column="136" selection-start-line="247" selection-start-column="136" selection-end-line="247" selection-end-column="136" />
+        <state relative-caret-position="1080">
+          <caret line="95" column="17" selection-start-line="95" selection-start-column="17" selection-end-line="95" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="2885" column="18" selection-start-line="2885" selection-start-column="18" selection-end-line="2885" selection-end-column="18" />
+          <folding>
+            <element signature="e#55800#55801#0" expanded="true" />
+            <element signature="e#55844#55845#0" expanded="true" />
+            <element signature="e#113343#113344#0" expanded="true" />
+            <element signature="e#113370#113371#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/learnings/tree/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/learnings/tree/BinaryTreeSumPreSucc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="60" column="44" selection-start-line="54" selection-start-column="8" selection-end-line="60" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/learnings/GBusCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4618#4627#0" expanded="true" />
-            <element signature="e#4874#4883#0" expanded="true" />
-            <element signature="e#6042#6060#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sxj180002/BinarySearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2565">
+          <caret line="180" column="41" lean-forward="true" selection-start-line="180" selection-start-column="41" selection-end-line="180" selection-end-column="41" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sxj180002/BoundedQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="124" column="5" selection-start-line="124" selection-start-column="5" selection-end-line="124" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/learnings/Leetcode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sxj180002/BinaryHeap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2355">
+          <caret line="163" column="36" selection-start-line="163" selection-start-column="36" selection-end-line="163" selection-end-column="36" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/learnings/tree/InorderSuccessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="57" column="48" selection-start-line="50" selection-start-column="8" selection-end-line="57" selection-end-column="48" />
+          <folding>
+            <element signature="e#245#246#0" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/learnings/tree/BoundaryTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="15" column="68" selection-start-line="15" selection-start-column="68" selection-end-line="15" selection-end-column="68" />
+          <folding>
+            <element signature="e#119#120#0" expanded="true" />
+            <element signature="e#146#147#0" expanded="true" />
           </folding>
         </state>
       </provider>

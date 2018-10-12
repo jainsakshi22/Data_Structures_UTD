@@ -1,9 +1,16 @@
-package Learnings;
+package learnings;
 
 import java.io.IOException;
 import java.util.*;
 
 public class Leetcode {
+
+    public Leetcode() {
+        int i = 0;
+        for (; i<5; i++)
+            System.out.println(i);
+        System.out.println(i);
+    }
 
     /* 3. Longest Substring Without Repeating Characters */
     public int lengthOfLongestSubstring(String s) {
@@ -209,6 +216,20 @@ public class Leetcode {
         return output;
     }
 
+    /* Fibonacci using Memoization */
+    public int fibonacci(int n) {
+        return fibonacci(n, new int[n + 1]);
+    }
+
+    //Used by Fibonacci
+    public int fibonacci(int n, int[] memory) {
+        if (n <= 1) memory[n] = n;
+        else if (memory[n] == 0) {
+            memory[n] = fibonacci(n-1, memory) + fibonacci(n-2, memory);
+        }
+        return memory[n];
+    }
+
     public static void main(String[] args) throws IOException {
         Leetcode obj = new Leetcode();
         Scanner in = new Scanner(System.in);
@@ -252,6 +273,9 @@ public class Leetcode {
                         System.out.print("Yes");
                     else
                         System.out.print("No");
+                    break;
+                case 1002: // Fibonacci using Memoization
+                    System.out.println(obj.fibonacci(7));
                     break;
                 default:
                     break whileloop;

@@ -203,72 +203,6 @@ public class BinarySearchTree<T extends Comparable<? super T>> implements Iterab
 		}
 	}
 
-	/**
-	 * To find the minimum element in the tree
-	 * 
-	 * @return
-	 */
-	public T min() {
-		if (size() == 0)
-			return null;
-		Entry<T> t = root();
-		while (t.left != null)
-			t = t.left;
-		return t.element;
-	}
-
-	/**
-	 * To find the minimum element in the tree
-	 * 
-	 * @return
-	 */
-	public T max() {
-		if (size() == 0)
-			return null;
-		Entry<T> t = root();
-		while (t.right != null)
-			t = t.right;
-		return t.element;
-	}
-
-	/**
-	 * Create an array with the elements using in-order traversal of tree
-	 * 
-	 * @return array version of the tree
-	 */
-	public Comparable[] toArray() {
-		Comparable[] arr = new Comparable[size()];
-		Entry<T> t = root();
-		inOrderTraversal(t, arr, 0);
-		return arr;
-	}
-
-	/**
-	 * Helper method to traverse inorder
-	 * 
-	 * @param t
-	 * @param arr
-	 * @param i
-	 * @return latest index of the array
-	 */
-	private int inOrderTraversal(Entry<T> t, Comparable[] arr, int i) {
-		if (t != null) {
-			i = inOrderTraversal(t.left, arr, i);
-			arr[i++] = t.element;
-			i = inOrderTraversal(t.right, arr, i);
-		}
-		return i;
-
-	}
-
-	/**
-	 * Optional problem 2: Iterate elements in sorted order of keys Solve this
-	 * problem without creating an array using in-order traversal (toArray()).
-	 */
-	public Iterator<T> iterator() {
-		return null;
-	}
-
 	public static void main(String[] args) {
 		BinarySearchTree<Integer> t = new BinarySearchTree<>();
 		Scanner in = new Scanner(System.in);
@@ -292,6 +226,72 @@ public class BinarySearchTree<T extends Comparable<? super T>> implements Iterab
 				return;
 			}
 		}
+	}
+
+	/**
+	 * To find the minimum element in the tree
+	 *
+	 * @return
+	 */
+	public T min() {
+		if (size() == 0)
+			return null;
+		Entry<T> t = root();
+		while (t.left != null)
+			t = t.left;
+		return t.element;
+	}
+
+	/**
+	 * To find the minimum element in the tree
+	 *
+	 * @return
+	 */
+	public T max() {
+		if (size() == 0)
+			return null;
+		Entry<T> t = root();
+		while (t.right != null)
+			t = t.right;
+		return t.element;
+	}
+
+	/**
+	 * Create an array with the elements using in-order traversal of tree
+	 *
+	 * @return array version of the tree
+	 */
+	public Comparable[] toArray() {
+		Comparable[] arr = new Comparable[size()];
+		Entry<T> t = root();
+		inOrderTraversal(t, arr, 0);
+		return arr;
+	}
+
+	/**
+	 * Helper method to traverse inorder
+	 *
+	 * @param t
+	 * @param arr
+	 * @param i
+	 * @return latest index of the array
+	 */
+	private int inOrderTraversal(Entry<T> t, Comparable[] arr, int i) {
+		if (t != null) {
+			i = inOrderTraversal(t.left, arr, i);
+			arr[i++] = t.element;
+			i = inOrderTraversal(t.right, arr, i);
+		}
+		return i;
+
+	}
+
+	/**
+	 * Optional problem 2: Iterate elements in sorted order of keys Solve this
+	 * problem without creating an array using in-order traversal (toArray()).
+	 */
+	public Iterator<T> iterator() {
+		return null;
 	}
 
 	/**

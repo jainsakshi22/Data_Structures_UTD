@@ -1,4 +1,4 @@
-package Learnings;
+package learnings;
 
 import java.io.*;
 import java.util.*;
