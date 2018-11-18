@@ -87,7 +87,6 @@ public class SinglyLinkedList<T> implements Iterable<T> {
     }  // end of class SLLIterator
 
     // Add new elements to the end of the list
-    // Add new elements to the end of the list
     public void add(T x) {
         add(new Entry<>(x, null));
     }
@@ -170,6 +169,21 @@ public class SinglyLinkedList<T> implements Iterable<T> {
         tail = tail1;
     }
 
+    // Practice notes
+    void reverseLinkedList() {
+        if (head.next == null) { return; }
+        Entry<T> prev = null;
+        Entry<T> cursor = head.next;
+        Entry<T> next = null;
+        while (cursor != null) {
+            next = cursor.next;
+            cursor.next = prev;
+            prev = cursor;
+            cursor = next;
+        }
+        head.next = prev;
+    }
+
     public static void main(String[] args) throws NoSuchElementException {
         int n = 10;
         if(args.length > 0) {
@@ -207,6 +221,10 @@ public class SinglyLinkedList<T> implements Iterable<T> {
                     break ;
                 case 4:
                     lst.set(in.nextInt(), in.nextInt());
+                    lst.printList();
+                    break ;
+                case 5: //Practice question
+                    lst.reverseLinkedList();
                     lst.printList();
                     break ;
                 default:  // Exit loop
