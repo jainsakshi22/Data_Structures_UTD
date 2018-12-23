@@ -1,4 +1,4 @@
-/** @author Sakshi Jain, Prit Thakkar
+/** @author Sakshi Jain
  */
 
 ** Steps to compile and run the program:
@@ -6,20 +6,6 @@
 * To run through command line, follow these steps:
 1. Copy the sxj180002 (Package) folder in a directory
 2. Open terminal and go to the package folder
-3. First Compile SinglyLinkedList using the command "javac sxj180002/SinglyLinkedList.java"
-4. Compile DoublyLinkedList using the command "javac sxj180002/DoublyLinkedList.java"
-5. To execute the DoublyLinkedList main method, use command "java sxj180002.DoublyLinkedList"
-
-* To run through IDE, follow these steps:
-1. Create a new project using an IDE i.e. Eclipse, IntellijIdea
-2. Create a new package sxj180002 inside the src folder
-3. Copy the contents of sxj180002 folder into the package folder
-4. Build the project
-5. Execute the main method in DoublyLinkedList.java file
-
-** Use following options to verify the functionality of the program:
-1. Move to next element and print it
-2. Move to previous element and print it
-3. Add element after the cursor
-4. Remove the current element
-5. Print list
+3. First Compile Filename using the command "javac packageName/Filename.java"
+4. Compile Filename using the command "javac packageName/Filename.java"
+5. To execute the Filename main method, use command "java sxj180002.Filename"
