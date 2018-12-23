@@ -6,10 +6,6 @@ import java.util.*;
 public class Leetcode {
 
     public Leetcode() {
-        int i = 0;
-        for (; i<5; i++)
-            System.out.println(i);
-        System.out.println(i);
     }
 
     /* 3. Longest Substring Without Repeating Characters */
@@ -223,11 +219,64 @@ public class Leetcode {
 
     //Used by Fibonacci
     public int fibonacci(int n, int[] memory) {
-        if (n <= 1) memory[n] = n;
+        if (n <= 1) return n;
         else if (memory[n] == 0) {
             memory[n] = fibonacci(n-1, memory) + fibonacci(n-2, memory);
         }
         return memory[n];
+    }
+
+    // Find sets that add up to total. Eg {2,4,6,10} return 2 means it has 2 subset (10,6), (2,4,10) that adds upto 16
+    // https://www.youtube.com/watch?v=nqlNzOcnCfs
+    public int countSetsToCalculateSum(int[] arr, int total) {
+        System.out.println("Press 1 for recursive approach, 2 for dynamic programming approach");
+        Scanner in = new Scanner(System.in);
+        if (in.nextInt() == 1) {
+            return recursionCountSetsToCalculateSum(arr, total, arr.length - 1);
+        } else {
+            Map<String, Integer> mem = new HashMap<String, Integer>();
+            return dpCountSetsToCalculateSum(arr, total, arr.length - 1, mem);
+        }
+    }
+
+    private int recursionCountSetsToCalculateSum(int[] arr, int total, int i) {
+        if (total == 0) return 1; //coz empty set has 1 element
+        else if (total < 0) return 0; //no -ve numbers are allowed
+        else if (i < 0) return 0; //no more elements are present to make sum as total
+        else if (total < arr[i]) { // if we want sum as 6 in above example, no point of including 10
+            return recursionCountSetsToCalculateSum(arr, total, i-1);
+        } else {
+            //if we want to include ith element, subtract total
+            return recursionCountSetsToCalculateSum(arr, total - arr[i], i-1) +
+                    recursionCountSetsToCalculateSum(arr, total, i-1); //if we want dont want to include ith element, pass same total
+        }
+    }
+
+    private int dpCountSetsToCalculateSum(int[] arr, int total, int i, Map<String,Integer> mem) {
+        String key = total + ":" + i;
+        //Return value from memoized if we have already calculated that
+        if (mem.containsKey(key)) {
+            return mem.get(key);
+        }
+
+        int to_return;
+        if (total == 0) {
+            return 1; //coz empty set has 1 element
+        }
+        else if (total < 0) {
+            return 0; //no -ve numbers are allowed
+        }
+        else if (i < 0) {
+            return 0; //no more elements are present to make sum as total
+        }
+        else if (total < arr[i]) { // if we want sum as 6 in above example, no point of including 10
+            to_return = dpCountSetsToCalculateSum(arr, total, i-1, mem);
+        } else {
+            //if we want to include ith element, subtract total
+            to_return = dpCountSetsToCalculateSum(arr, total - arr[i], i-1, mem) +
+                    dpCountSetsToCalculateSum(arr, total, i-1, mem); //if we want dont want to include ith element, pass same total
+        }
+        return to_return;
     }
 
     public static void main(String[] args) throws IOException {
@@ -274,8 +323,14 @@ public class Leetcode {
                     else
                         System.out.print("No");
                     break;
-                case 1002: // Fibonacci using Memoization
+
+                // Dynamic Programming
+                case 2001: // Fibonacci using Memoization
                     System.out.println(obj.fibonacci(7));
+                    break;
+
+                case 2002:
+                    System.out.println("Total number of sets: " + obj.countSetsToCalculateSum(new int[] {2,4,6,10}, 16));
                     break;
                 default:
                     break whileloop;

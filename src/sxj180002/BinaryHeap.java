@@ -1,4 +1,4 @@
-/** @author Sakshi Jain, Arunachalam Saravanan
+/** @author Sakshi Jain(sxj180002) and Harsh Verma(hxv180001)
  */
 
 package sxj180002;
@@ -21,6 +21,10 @@ public class BinaryHeap<T extends Comparable<? super T>> {
 		pq = q;
 		comp = c;
 		size = q.length; // Check what should be the size of queue
+
+		for (int i = parent(size - 1); i >= 0; i--) {
+			percolateDown(i);
+		}
 	}
 
 	public void add(T x) { /* throw exception if pq is full */
@@ -96,10 +100,10 @@ public class BinaryHeap<T extends Comparable<? super T>> {
 		T obj = pq[i];
 		int child = leftChild(i);
 		while (child <= size - 1) {
-			if (child + 1 < size && comp.compare(pq[child], pq[child + 1]) > 0) {
+			if (child + 1 < size && comp.compare(pq[child], pq[child + 1]) == 1) {
 				child++;
 			}
-			if (comp.compare(obj, pq[child]) < 0) {
+			if (comp.compare(obj, pq[child]) == -1) {
 				break; // Stop when object is less than the left child
 			}
 			pq[i] = pq[child];
@@ -126,9 +130,7 @@ public class BinaryHeap<T extends Comparable<? super T>> {
 
 	// Print the heap pq
 	void print() {
-		for (int i = 0; i < size; i++) {
-			System.out.print(pq[i] + " ");
-		}
+		System.out.println(Arrays.toString(pq));
 	}
 
 	public static void main(String[] args) {
